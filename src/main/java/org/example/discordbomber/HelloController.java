@@ -2,10 +2,7 @@ package org.example.discordbomber;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.Slider;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.ScrollEvent;
 import javafx.scene.text.Text;
@@ -24,13 +21,13 @@ public class HelloController {
     SendLogic sendLogic = new SendLogic();
     public TextField accountId;
     public TextField idTextField;
-    public TextField myTextField;
+    public TextArea myTextArea;
     public TextField myImageField;
 
     @FXML
     protected void startButton() {
         time = timerSlider.getMinorTickCount();
-        sendLogic.choseFunction(myTextField.getText(), myImageField.getText(), accountId.getText(), idTextField.getText(), imageRadio.isSelected(), totalTime);
+        sendLogic.choseFunction(myTextArea.getText(), myImageField.getText(), accountId.getText(), idTextField.getText(), imageRadio.isSelected(), totalTime);
         attentionText.setText("");
     }
     public void stopButton(ActionEvent event) {
