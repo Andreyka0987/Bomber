@@ -1,5 +1,10 @@
 Simple discrod auto-message sender
+
 <img width="493" height="522" alt="image" src="https://github.com/user-attachments/assets/cee907bf-910d-4ba8-8f58-c2573ff8a24b" />
+
+
+
+
 ID - place where you have to put id of discord group, etc.
 Your text - place where you have to put your text.
 Your token - place where you have to put your discord token. (WARNING DON'T GIVE THIS TOKEN TO ANYONE)
