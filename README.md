@@ -14,4 +14,4 @@ radio button image requied - if you wanna send image you have to tick this thing
 
 End timer - ends working 
 
-Under the End timer (Начать штурм) - starts working
+Under the End timer - starts working
